@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+<body>
+    <h1>Bienvenido/a a Omedar</h1>
+    <h2>Registrate</h2>
+
+    <form>
+        <!-- Etiqueta para el nombre -->
+        <label for="nombreEntrada">Nombre:</label>
+        <input type="text" id="nombreEntrada">
+        <br>
+
+        <!-- Etiqueta para el apellido -->
+        <label for="apellidoPaterno">Apellido Paterno:</label>
+        <input type="text" id="apellidoPaterno">
+        <br>
+
+        <!-- Etiqueta para el apellido Materno -->
+        <label for="apellidoMaterno">Apellido Materno:</label>
+        <input type="text" id="apellidoMaterno">
+        <br>
+
+        <!-- Etiqueta para el email -->
+        <label for="emal">Emal:</label>
+        <input type="email" id="emal">
+        <br>
+
+        <label for="sexo">Sexo</label>
+        <input name="sexo" type="radio" value="masculino">Masculino
+        <input name="sexo" type="radio" value="faemenino">Femenino
+
+        <br>
+        <label for="rango">Da tu edad</label><br>
+        <input type="radio" name="edades"><label>14 - 20</label><br>
+        <input type="radio" name="edades"><label>21 - 30</label><br>
+        <input type="radio" name="edades"><label>31 - 40</label><br>
+
+        <label for="rango">Password</label><br>
+        <input type="password" >
+
+    </form>
+</body>
+</html>
