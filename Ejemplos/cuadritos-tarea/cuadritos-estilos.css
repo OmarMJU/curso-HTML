@@ -1,0 +1,74 @@
+/* Estilos para el ancho. */
+.ancho {
+    width: 650px;
+}
+
+/* Estilos para el alto. */
+.cuadro-4, .cuadro-5, .cuadro-6 {
+    height: 420px;
+}
+
+
+/* Fondo color negro. */
+.fondo-negro {
+    background-color: black;
+}
+
+/* Fondo color rosa */
+.fondo-verde {
+    background-color: green;
+}
+
+/* No tiene fondo, solo el borde. */
+.sin-fondo {
+    border: black 5px solid;
+    height: 280px;
+    width: 280px;
+}
+
+/* Cuadros 7 y 8 van a tener las mismas dimenciones */
+.cuadro-7, .cuadro-8 {
+    width: 730px;
+    height: 730px;
+}
+
+/* Imagen como fondo una foto. */
+#imagen {
+    width: 700px;
+    height: 400px;
+    background-image: url("./helado.jpg");
+}
+
+/* Estilos de los cuadritos. */
+.cuadro-1 {
+    height: 300px;
+}
+
+.cuadro-2 {
+    height: 480px;
+}
+
+.cuadro-3 {
+    height: 150px;
+}
+
+.cuadro-4 {
+    width: 250px;
+}
+
+.cuadro-5 {
+    width: 550px;
+}
+
+.cuadro-6 {
+    width: 750px;
+}
+
+/* Ignorar esta propiedad */
+.cuadro-4,
+.cuadro-5,
+.cuadro-6,
+.cuadro-7,
+.cuadro-8 {
+    margin: 10px 0px;
+}
