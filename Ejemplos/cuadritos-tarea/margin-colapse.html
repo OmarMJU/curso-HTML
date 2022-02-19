@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container p:nth-child(1) {
+            background-color: red;
+        }
+
+        .container p {
+            margin: 50px;
+        }
+
+        .line-container button {
+            margin: 50px;
+        }
+
+    </style>
+    <!--
+        Los margenes se traslapan o colapsan en elementos de tipo block.
+        Este traslape o colapso de margenes se resuelve usando display de tipo 
+        Flexbox o CSS Grid.
+        ** NOTA: El traslape de margenes siempre se hará en elementos que estén
+        alineados verticalmente.
+    -->
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos sequi ab id eligendi. Libero perferendis unde eaque ducimus, officiis minus, praesentium molestiae minima, suscipit quia veritatis deserunt nisi facilis quo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ut quidem error tenetur omnis accusantium voluptatibus voluptatem, asperiores accusamus, dignissimos unde alias. Cum doloremque id aliquam mollitia quis saepe eos.</p>
+    </div>
+
+    <!-- 
+        Los margenes no se traslapan con elementos de tipo inline
+        o cuando se alinean de forma vertical
+     -->
+    <div class="line-container">
+        <button>Button 1</button>
+        <button>Button 2</button>
+    </div>
+</body>
+</html>
