@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 100% = 16px, entonces 10px = 62.5px */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: #aff;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* 
+        Paleta de colores
+        https://coolors.co/palette/3fc1c0-20bac5-00b2ca-04a6c2-0899ba-0f80aa-16679a-1a5b92-1c558e-1d4e89
+         */
+        .container.first {
+            background-color: #0096C7;
+        }
+
+        .container.second {
+            background-color: #00B4D8;
+        }
+        .container h2 {
+            color: #fff;
+            font-size: 7rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>Omar</div>
+    <div>Daniela</div>
+    <p>Soy un parrafo bien lindo</p> -->
+    <div class="container first">
+        <h2>Welcome to your favorite web site...</h2>
+    </div>
+    <div class="container second">
+        <h2>This world is yours!!</h2>
+    </div>
+</body>
+</html>
