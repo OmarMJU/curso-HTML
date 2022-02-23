@@ -1,0 +1,168 @@
+/* Styles for all elements. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #171818;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p, a {
+    color: #fff;
+}
+
+.container .card {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(275deg, rgba(0,0,0,1) 0%, rgba(34,37,40,1) 100%);
+    background: -webkit-linear-gradient(275deg, rgba(0,0,0,1) 0%, rgba(34,37,40,1) 100%);
+    background: linear-gradient(275deg, rgba(0,0,0,1) 0%, rgba(34,37,40,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#222528",GradientType=1);
+    border-radius: 10px;
+    width: 40vw;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.container .card header {
+    background-image: url(https://images.unsplash.com/photo-1444090542259-0af8fa96557e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35%;
+    position: relative;
+}
+
+.container .card header .links {
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.container .card header .links a {
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+.container .card header .foto {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 30%;
+    bottom: -30%
+}
+
+.container .card section {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container .card section * {
+    padding: 3px 0px;   
+}
+
+.container .card section .name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.container .card section .profession,
+.container .card section .mail,
+.container .card section .country,
+.container .card section .paragraph {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.container .card section .profession,
+.container .card section .mail {
+    font-size: 18px;
+}
+
+.container .card section .country {
+    font-size: 14px;
+}
+
+.container .card section .buttons {
+    width: 50%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.container .card section .buttons button {
+    border-radius: 10px;
+    padding: 10px 5px;
+    width: 35%;
+    background-color: #e76f51;
+    border: none;
+    color: #fff;
+}
+
+.container .card section .buttons button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #e76f51;
+    transition: 0.5s ease;
+}
+
+.container .card section .social-media {
+    /* border: 1px solid #fff; */
+    width: 50%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .card section .social-media a {
+    font-size: 20px;
+    color: #e76f51;
+}
+
+.container .card section .social-media a:hover {
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.container .footer {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.container .footer div {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .footer div h2,
+.container .footer div h3 {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.container .footer .following {
+    border-right: 1px solid #6C757D;
+}
+
+.container .footer .likes {
+    border-left: 1px solid #6C757D;
+}
+
+
+
+
+
